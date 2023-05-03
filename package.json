@@ -1,0 +1,19 @@
+{
+  "name": "cursonodejs",
+  "version": "0.0.1",
+  "description": "curso de node js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "base3": "node ./bases-node/app --tabla=3"
+  },
+  "author": "Karla Romero",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
