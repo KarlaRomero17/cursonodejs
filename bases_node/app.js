@@ -20,7 +20,5 @@ console.clear();
 crearArchivo(argv.t, argv.l, argv.h)
     .then(nombreArchivo => console.log(nombreArchivo.bgWhite, 'creado'))
     .catch(err => console.log(err));
-    
-    //test
 
     
